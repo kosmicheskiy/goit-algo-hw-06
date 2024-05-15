@@ -30,3 +30,12 @@
 <br>
 
 Для заданих 2х верших враховуючи простоту графу метод BFS показав себе краще
+
+
+При наявності ваги у ребер та найкоротший шлях між всіма вершинами графа<br>
+
+Shortes path from nodes Alice: {'Alice': 0, 'Bob': 4, 'Charlie': 2, 'David': 5, 'Eve': 5}<br>
+Shortes path from nodes Bob: {'Alice': inf, 'Bob': 0, 'Charlie': 17, 'David': 10, 'Eve': 16}<br>
+Shortes path from nodes Charlie: {'Alice': inf, 'Bob': inf, 'Charlie': 0, 'David': inf, 'Eve': 3}<br>
+Shortes path from nodes David: {'Alice': inf, 'Bob': inf, 'Charlie': 7, 'David': 0, 'Eve': 6}<br>
+Shortes path from nodes Eve: {'Alice': inf, 'Bob': inf, 'Charlie': inf, 'David': inf, 'Eve': 0}<br>
