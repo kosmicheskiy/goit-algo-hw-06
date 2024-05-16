@@ -8,7 +8,14 @@
 Ступніь вершин :
  - David - 4
  - Charlie, Alice - 3
- - Eve, Bob - 2
+ - Eve, Bob - 2<br>
+
+ Сусіди вершини "Alice" - "Bob", "Charlie", "David"<br>
+ Сусіди вершини "Bob" - "Alice", "David"<br>
+ Сусіди вершини "Charlie" - "Alice", "David", "Eve"<br>
+ Сусіди вершини "Eve" - "Charlie", "David"<br>
+ Сусіди вершини "David" - "Bob", "Charlie", "Eve", "Alice"<br>
+ 
 
 
 Пошук усіх шляхів у графі між вершинами Alice та Charlie методом BFS<br>
